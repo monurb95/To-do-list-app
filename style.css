@@ -1,0 +1,105 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fef4f4; /* Light pastel pink */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #d4f8e8; /* Light pastel mint */
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.main {
+  padding: 1rem 2rem;
+}
+
+.input-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.input-area button {
+  background-color: #a8dadc; /* Pastel blue */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #457b9d; /* Slightly darker blue */
+}
+
+.filter-area {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-btn {
+  background-color: #ffadad; /* Light pastel red */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #ff6b6b; /* Slightly darker red */
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  background-color: #f8edeb; /* Light pastel peach */
+  color: #333;
+}
+
+#taskList li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.footer {
+  text-align: center;
+  background-color: #d4f4fb; /* Light pastel blue */
+  padding: 0.5rem;
+  color: #333;
+}
